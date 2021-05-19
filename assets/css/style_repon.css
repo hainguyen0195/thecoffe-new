@@ -1,0 +1,138 @@
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1200px !important;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+	
+}
+
+@media (max-width: 767px) {
+	.row {
+		margin: 0;
+	}
+
+	.rowrp {
+		margin: 0 -10px;
+	}
+
+	.col-4,
+	.col-3,
+	.col_video {
+		padding: 0 10px 0 5px;
+	}
+
+	.col-4:nth-child(2n+1),
+	.col-3:nth-child(2n+1),
+	.col_video:nth-child(2n+1) {
+		clear: both;
+		padding: 0 5px 0 10px;
+	}
+
+	.padding {
+		padding: 10px 0;
+	}
+
+	footer {
+		padding: 20px 0;
+	}
+
+	.row_footer {
+		flex-wrap: wrap;
+	}
+
+	.footer1,
+	.footer2,
+	.footer3,
+	.footer4 {
+		width: 100%;
+		padding: 5px;
+	}
+
+	.copppy,
+	.thongke {
+		text-align: center;
+	}
+
+	header nav {
+		display: none;
+	}
+	/*hotrocss*/
+	.fix-toolbar {
+		display: block;
+	}
+
+	.zalo_fixed,
+	.drag-wrapper,
+	.ctrlq.fb-button,
+	.call_fixed {
+		display: none;
+	}
+	/*hotrocss*/
+	.form_contact {
+		width: 100%;
+	}
+	.diachi_top,.hotline,.menu{
+		display: none;
+	}
+	.logo{
+		max-width: 30%
+	}
+	.banner{
+		max-width: 70%
+	}
+	.showmnrp{
+		display: block !important;
+	}
+	.pagination>li>a, .pagination>li>span{
+		    padding: 4px 10px;
+	}
+	.copppy{
+		padding-bottom: 55px;
+	}
+	.title-pro-detail{
+		margin: 10px 0;
+	}
+}
+
+@media (max-width: 460px){
+    div.bao {
+        width: 320px;
+        height: 320px;
+    }
+    div.text {
+        width: 95px;
+    }
+    div.item_text{
+        width: 95px;
+        padding: 3px;
+    }
+    div.text img {
+        width: 95px !important;
+    }
+    div.cover-xoay {
+        background-size: 60% 60%;
+    }
+    div.item_text:after {
+        content: '';
+        position: absolute;
+        width: 93px;
+        height: 100px;
+        top: 2px;
+        left: 1px;
+        right: 0;
+        bottom: 0;
+        background: url(../images/bg-hexagon.png) no-repeat center;
+        pointer-events: none;
+        background-size: 100% 100%;
+    }
+    .logo_xoay{max-width: 80px;}
+}
+
+/*End Xoay*/
