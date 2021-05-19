@@ -15,7 +15,7 @@
     <div id="notfound">
         <div class="notfound">
             <div class="notfound-404">
-                <h1>404</h1>
+                <h1>404 123</h1>
             </div>
             <h2>Oops! Trang hiện không tồn tại</h2>
             <p>Trang bạn đang tìm kiếm không tồn tại, bị xóa hoặc thông tin đã bị thay đổi. </p>
